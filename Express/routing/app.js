@@ -1,0 +1,5 @@
+const birds = require('./birds')
+const express=require('express')
+const app=express()
+app.use('/birds', birds)
+.listen('3000')
